@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Prakash Anuvadia | Interior Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Manrope', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            colors: {
+              brand: {
+                black: '#0a0a0a',
+                dark: '#121212',
+                charcoal: '#1E1E1E',
+                gold: '#D4AF37',
+                pale: '#F3E5AB',
+                white: '#EDEDED'
+              }
+            },
+            backgroundImage: {
+              'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            }
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+        "react/": "https://aistudiocdn.com/react@^19.2.1/",
+        "react": "https://aistudiocdn.com/react@^19.2.1",
+        "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.26",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.557.0"
+      }
+    }
+    </script>
+    <style>
+      body {
+        background-color: #0a0a0a;
+        color: #EDEDED;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D4AF37;
+      }
+    </style>
+  </head>
+  <body class="bg-brand-black text-brand-white antialiased selection:bg-brand-gold selection:text-brand-black">
+    <div id="root"></div>
+  </body>
+</html>
