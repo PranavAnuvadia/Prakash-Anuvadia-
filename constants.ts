@@ -3,8 +3,8 @@ import { Layers, PenTool, Monitor, Home, Building2, FileText } from 'lucide-reac
 
 export const LINKS = {
   // Linking to the drive folder
-  resumePdf: "https://drive.google.com/drive/folders/1mbhr0MBs1wH5X3YQcma6jYW9qqsrYRTd", 
-  portfolioDrive: "https://drive.google.com/drive/folders/1mbhr0MBs1wH5X3YQcma6jYW9qqsrYRTd" 
+  resumePdf: "https://drive.google.com/drive/folders/1LwvjUg-S9iuYVJ0moZWTLdXOkuEfdPCX?usp=sharing", 
+  portfolioDrive: "https://drive.google.com/drive/folders/1LwvjUg-S9iuYVJ0moZWTLdXOkuEfdPCX?usp=sharing" 
 };
 
 export const PERSONAL_DETAILS = {
